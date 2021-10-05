@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint 3</title>
+
+    <!--Ícone aba do Navegador-->
+    <link rel="shortcut icon" href="../img/batman-icon.png" type= "image/x-icon">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+    <!--Meu CSS-->
+    <link href="../css/estiloCheck.css" rel="stylesheet">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Yaldevi&display=swap" rel="stylesheet">
+
+  
+</head>
+<body>
+    <header>
+        <div class="header">
+            <a href="../html/index.html" class="logo">Batman Movies</a>
+            <div class="header-left">
+              <a class="active" href="../html/index.html">Página Inicial</a>
+              <a href="https://www.imdb.com/list/ls059646235/" target="_blank">Filmes</a>
+              <a href="https://www.instagram.com/batman/?hl=pt-br" target="_blank">Sobre</a>
+              <a href="https://pt.wikipedia.org/wiki/Categoria:Filmes_da_s%C3%A9rie_Batman_produzidos_pela_Warner_Bros." target="_blank">Contato</a>
+              <a href="https://www.dccomics.com/characters/batman" target="_blank">Universo Batman</a>
+            </div>
+          </div>
+
+       <div class="login">
+            <form action="">
+                <div>
+                    <input type="text" id="usuario" placeholder="User">
+                    <label for="usuario">Login</label>
+                </div>
+                <div>
+                    <input type="password" id="senha" placeholder="Password">
+                    <label for="senha">Senha</label>
+                </div>
+                <button type="button" class="btn btn-dark">Entrar</button>
+        
+            </form>
+        </div>
+
+    </header>
+
+    <!--Bootstrap utilizado no menu carrosel-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="https://www.imdb.com/title/tt0372784/" target="_blank">
+                <img src="../img/img1.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://www.imdb.com/title/tt0468569/" target="_blank">
+                <img src="../img/img2.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href = "https://www.imdb.com/title/tt1345836/" target="_blank">
+                <img src="../img/img3.jpg" class="d-block w-100" alt="...">
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <ul class="movies flex h-around">
+        <li class="width-25 movie">
+            <a href="../html/batmancapuzvermelho.html">
+                <img
+                    class="movie_img"
+                    src="../img/img4.jpg"
+                    alt="Batman"
+                />
+            </a>
+            <p>Batman Contra o Capuz Vermelho</p>
+        </li>
+        <li class="width-25 movie">
+            <a href="../html/piadamortal.html">
+                <img
+                    class="movie_img"
+                    src="../img/img5.png"
+                    alt="Batman"
+                />
+            </a>
+            <p>Batman A Piada Mortal</p>
+        </li>
+        <li class="width-25 movie">
+            <a href="../html/dkr.html">
+                <img
+                    class="movie_img"
+                    src="../img/img6.jpg"
+                    alt="Batman"
+                />
+            </a>
+            <p>Batman O Cavaleiro das Trevas</p>
+        </li>
+        <li class="width-25 movie">
+            <a href="../html/batmansilencio.html">
+                <img
+                    class="movie_img"
+                    src="../img/img7.jpeg"
+                    alt="Batman"
+                />
+            </a>
+            <p>Batman Silêncio</p>
+        </li>
+        <li class="width-25 movie">
+            <a href="../html/ljs.html">
+                <img
+                    class="movie_img"
+                    src="../img/img8.jpg"
+                    alt="Batman"
+                />
+            </a>
+            <p>Liga da Justiça Sombria</p>
+        </li>
+        <li class="width-25 movie">
+            <a href="../html/btm9.html">
+                <img
+                    class="movie_img"
+                    src="../img/img9.jpg"
+                    alt="Batman"
+                />
+            </a>
+            <p>Batman Assalto a Arkham</p>
+        </li>
+      </ul>
+
+      <footer>
+         <div class="rodape">
+            <h2>Um pouco sobre a gente.</h2>
+            <p>Somos um pequeno site onde trazemos todas as obras do Batman nos cinemas e nas animações. 
+                Se quiser colaborar conosco é só entrar em contato. Sua ajuda é muito bem vinda. Em breve também teremos as HQs e séries animadas.
+            </p>
+         </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
